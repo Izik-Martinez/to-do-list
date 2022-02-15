@@ -15,13 +15,24 @@
 let masterList = [];
 let userInput = prompt("What do you want to do?");
 
-if (userInput = "new") {userInput = prompt("test")}
+
+
 while (userInput !== "quit"){
 
+    if (userInput = "new") {
+        
+        userInput = prompt("Enter a new to-do!");
+        masterList.push(userInput);
 
 
-userInput = prompt("test")
 
+
+
+}
+ 
+    console.log(userInput);
+    console.log(masterList);
+ 
 
 
 
