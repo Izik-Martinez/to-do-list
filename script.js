@@ -10,3 +10,20 @@
 // If user enters an invalid command/value, just keep looping the question
 // "quit" will quit the 'app' and console.log() a quit-confirmation message
 
+
+
+let masterList = [];
+let userInput = prompt("What do you want to do?");
+
+if (userInput = "new") {userInput = prompt("test")}
+while (userInput !== "quit"){
+
+
+
+userInput = prompt("test")
+
+
+
+
+
+}
