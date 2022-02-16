@@ -25,22 +25,22 @@ while (userInput !== "quit"){
 
 
 
-    if (userInput == "new") {
+    if (userInput === "new") {
         
         userInput = prompt("Enter a new to-do!");
         
         masterList.push(userInput); 
         
      
-    } else if (userInput == "list"){
- 
+    } else if (userInput === "list"){
+      console.log("********************");
     for (let i = 0; i < masterList.length; i++){
 
      console.log(i + ": " + masterList[i]);
     //  console.log(masterList);
     }
-
-    } else if (userInput == "delete") {
+      console.log("********************");
+    } else if (userInput === "delete") {
         let j = prompt("Enter an index to delete!");
         // console.log(`To-do ${j} deleted!`);
         console.log("To-do deleted!");
@@ -50,3 +50,4 @@ while (userInput !== "quit"){
     }
 
 }
+  console.log("YOU QUIT THE APP!");
