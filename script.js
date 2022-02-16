@@ -40,13 +40,13 @@ while (userInput !== "quit"){
     //  console.log(masterList);
     }
 
+    } else if (userInput == "delete") {
+        let j = prompt("Enter an index to delete!");
+        // console.log(`To-do ${j} deleted!`);
+        console.log("To-do deleted!");
+        masterList.splice(j, 1);
+
+
     }
-
-
-
-
-
-
-
 
 }
