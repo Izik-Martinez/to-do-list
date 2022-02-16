@@ -28,7 +28,7 @@ while (userInput !== "quit"){
     if (userInput === "new") {
         
         userInput = prompt("Enter a new to-do!");
-        
+        console.log(`${userInput} added to the list!`)
         masterList.push(userInput); 
         
      
@@ -43,7 +43,7 @@ while (userInput !== "quit"){
     } else if (userInput === "delete") {
         let j = prompt("Enter an index to delete!");
         // console.log(`To-do ${j} deleted!`);
-        console.log("To-do deleted!");
+        console.log(`${masterList[j]} deleted!`);
         masterList.splice(j, 1);
 
 
