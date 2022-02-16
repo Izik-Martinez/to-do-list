@@ -13,26 +13,38 @@
 
 
 let masterList = [];
-let userInput = prompt("What do you want to do?");
+let userInput = "tomato";
+// prompt("What do you want to do?");
 
 
 
 while (userInput !== "quit"){
 
-    if (userInput = "new") {
+
+    userInput = prompt("What would you like to do?")
+
+
+
+    if (userInput == "new") {
         
         userInput = prompt("Enter a new to-do!");
-        masterList.push(userInput);
-
-
-
-
-
-}
+        
+        masterList.push(userInput); 
+        
+     
+    } else if (userInput == "list"){
  
-    console.log(userInput);
-    console.log(masterList);
- 
+    for (let i = 0; i < masterList.length; i++){
+
+     console.log(i + ": " + masterList[i]);
+    //  console.log(masterList);
+    }
+
+    }
+
+
+
+
 
 
 
