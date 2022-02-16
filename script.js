@@ -41,7 +41,7 @@ while (userInput !== "quit"){
     }
       console.log("********************");
     } else if (userInput === "delete") {
-        let j = prompt("Enter an index to delete!");
+        let j = parseInt(prompt("Enter an index to delete!"));
         // console.log(`To-do ${j} deleted!`);
         console.log(`${masterList[j]} deleted!`);
         masterList.splice(j, 1);
